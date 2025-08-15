@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Welcome Bonus Promo 🎉</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f172a;--card:#111827;--accent:#22c55e;--muted:#94a3b8;--txt:#e5e7eb;--ring:rgba(34,197,94,.4)
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;background:linear-gradient(120deg,#0b1024,#0f172a 40%,#0b0f1f);color:var(--txt)}
+    .container{max-width:960px;margin:0 auto;padding:24px}
+    .hero{display:grid;gap:18px;place-items:center;text-align:center;padding:48px 18px}
+    .badge{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border:1px solid #1f2937;border-radius:999px;background:#0b1224}
+    h1{font-size:clamp(28px,5vw,44px);line-height:1.1;margin:8px 0 0}
+    .sub{color:var(--muted);max-width:680px}
+    .cta{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:14px}
+    .btn{padding:14px 20px;border-radius:14px;border:none;font-weight:700;cursor:pointer;transition:.2s box-shadow,.2s transform}
+    .btn-primary{background:var(--accent);color:#0b0f1f;box-shadow:0 10px 30px var(--ring)}
+    .btn-primary:hover{transform:translateY(-1px);box-shadow:0 14px 34px var(--ring)}
+    .btn-ghost{background:transparent;border:1px solid #233146;color:var(--txt)}
+    .grid{display:grid;gap:16px;margin-top:26px}
+    @media(min-width:800px){.grid{grid-template-columns:1.2fr .8fr}}
+    .card{background:linear-gradient(180deg,#0e152b,#0b1224);border:1px solid #1f2937;border-radius:18px;padding:18px}
+    .steps{display:grid;gap:12px;margin:14px 0}
+    .step{display:flex;gap:12px;align-items:flex-start;background:#0a1122;border:1px solid #19233d;padding:12px;border-radius:14px}
+    .step .num{min-width:28px;height:28px;border-radius:999px;background:var(--accent);color:#0b0f1f;display:grid;place-items:center;font-weight:800}
+    .list{display:grid;gap:10px;margin:10px 0 0}
+    .list li{display:flex;gap:10px;align-items:baseline}
+    .tick{color:var(--accent)}
+    .statrow{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:12px}
+    .stat{background:#0a1122;border:1px solid #19233d;border-radius:14px;padding:14px;text-align:center}
+    .stat .big{font-size:24px;font-weight:800}
+    .pill{display:inline-flex;gap:8px;align-items:center;padding:6px 10px;border:1px solid #1f2937;border-radius:999px;background:#0b1224;color:var(--muted);font-size:12px}
+    .footer{color:#92a0b8;font-size:12px;margin-top:24px;text-align:center}
+    a{color:#a0eec0;text-decoration:none}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="hero">
+      <span class="badge">⚡ Limited Promo • Nigeria</span>
+      <h1>Get a Welcome Bonus up to ₦1,500 🎁</h1>
+      <p class="sub">Join our community, complete a small qualifying action, and receive a transparent, one-time bonus—no hype, no “get-rich-quick” promises. Built for students, creators, and small business owners. 💚</p>
+      <div class="cta">
+        <a href="#start"><button class="btn btn-primary">Get Started 😊</button></a>
+        <a href="#terms"><button class="btn btn-ghost">Read Terms</button></a>
+      </div>
+      <div class="statrow">
+        <div class="stat"><div class="big">3,200+</div><div>Verified Participants</div></div>
+        <div class="stat"><div class="big">₦1.5M+</div><div>Total Bonuses Paid</div></div>
+        <div class="stat"><div class="big">24h</div><div>Payout Timeline</div></div>
+      </div>
+    </div>
+
+    <div class="grid" id="start">
+      <div class="card">
+        <h2>How it works ✨</h2>
+        <div class="steps">
+          <div class="step">
+            <div class="num">1</div>
+            <div><b>Create an account</b> with your email/phone. We’ll verify your identity to keep things safe.</div>
+          </div>
+          <div class="step">
+            <div class="num">2</div>
+            <div><b>Complete a qualifying action</b> (choose one): make your first purchase, subscribe to a plan, or refer one friend who completes sign-up. No “investment” required.</div>
+          </div>
+          <div class="step">
+            <div class="num">3</div>
+            <div><b>Receive your bonus</b> directly to your chosen wallet or bank via a secure payment gateway. Payouts within 24 hours after validation.</div>
+          </div>
+        </div>
+        <ul class="list">
+          <li><span class="tick">✅</span> Transparent rules & one-time reward per person</li>
+          <li><span class="tick">✅</span> No guaranteed returns, no deposits required to “unlock” money</li>
+          <li><span class="tick">✅</span> Support via WhatsApp & email</li>
+        </ul>
+        <div style="margin-top:14px;display:flex;gap:12px;flex-wrap:wrap">
+          <a href="https://your-payment-link.example" target="_blank" rel="noopener">
+            <button class="btn btn-primary">Start Now 🚀</button>
+          </a>
+          <a href="#faq"><button class="btn btn-ghost">Questions? 🤔</button></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="pill">🔒 Secure payments</div>
+        <h3 style="margin:10px 0 6px">Why people join</h3>
+        <ul class="list">
+          <li><span class="tick">🌟</span> Simple steps, clear outcomes</li>
+          <li><span class="tick">🧾</span> Instant email receipts</li>
+          <li><span class="tick">💬</span> Real human support</li>
+        </ul>
+        <div style="margin-top:14px">
+          <div class="pill">📱 Works with Nigerian banks & wallets</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="faq" style="margin-top:18px">
+      <h2>FAQ 🙋🏽‍♂️</h2>
+      <details><summary>Do I need to deposit money?</summary><p>No. You only complete a qualifying action (like first purchase or referral). We do not promise fixed returns for deposits.</p></details>
+      <details><summary>How fast is the payout?</summary><p>Within 24 hours after we confirm the action meets the terms.</p></details>
+      <details><summary>How do you pay?</summary><p>We pay via secure gateways. You’ll get a receipt.</p></details>
+      <details><summary>Is this an investment?</summary><p>No. This is a limited marketing promotion with a capped bonus. No investment advice or profits are promised.</p></details>
+    </div>
+
+    <div class="card" id="terms" style="margin-top:18px">
+      <h2>Terms & Transparency 📜</h2>
+      <ul class="list">
+        <li><span class="tick">🧠</span> One bonus per verified person. Nigeria residents only.</li>
+        <li><span class="tick">⏳</span> Promo may end once the budget is exhausted.</li>
+        <li><span class="tick">🔍</span> Fraud or duplicate accounts void eligibility.</li>
+        <li><span class="tick">💡</span> No guaranteed returns; not an investment scheme.</li>
+        <li><span class="tick">📑</span> By participating you agree to the <a href="#terms">Promo Rules</a> and <a href="#privacy">Privacy Policy</a>.</li>
+      </ul>
+      <div class="footer">Need help? WhatsApp: <a href="#">+234-XXX-XXX-XXXX</a> • Email: support@example.com</div>
+    </div>
+  </div>
+</body>
+</html>
